@@ -1,6 +1,104 @@
+/*general styles - start*/
+* {
+    box-sizing:border-box;
+/*    ustalamy ze jak kontener ma np. 200px, to nam sie inne rzeczy nie rozjada*/
+}
+
 body {
-    background-color:#19820B;
+    margin:0;
+    padding:0;
     font-family: 'Lato', sans-serif;
-    color: #291f1a;
+}
+/*general styles - end*/
+
+/*navigation*/
+
+#main-nav {
+    width:100%;
+    position:fixed;
+    background-color:white;
+    right:0;
+    top:0;
+}
+
+#main-nav > ul {
+    float:right;
+    margin: 0;
+/*    oplywa prawa czesc okna przegladarki*/
+}
+
+#main-nav > ul > li {
+    display:inline-block;
+    padding: 20px 40px;
+/*    odsuwa element po 20 z gory/dolu i 40 po bokach, a gdyby byl margin to odsunie element od krawedzi przegladarki*/
+}
+
+#main-nav > ul > li > a {
+    color:#1ac056;
+    text-decoration:none;
     font-weight: 300;
 }
+/*zmiana koloru tekstu po najechaniu kursorem*/
+#main-nav > ul > li > a:hover {
+    color:#291f1a;
+}
+/*navigation-end*/
+
+
+/*header-start*/
+#main-header {
+    background-image: url(../img/header-background.jpg);
+    height:100vh;
+/*    vh robi to samo co width 100%*/
+    background-position:center;
+    background-size:cover;
+    color:#fff;
+    padding-top: 20px;
+}
+
+#main-header .main-header-content {
+    text-align:center;
+    padding: 30vh;
+}
+
+#main-header .main-header-content h1 {
+    font-weight: 300;
+    font-family: "Roboto", sans-serif;
+    font-size:3em;
+}
+
+#main-header .main-header-content h1 span {
+    color: #1ac056;
+}
+
+#main-header .main-header-content h2 {
+    font-size:2em;
+    font-weight:300;
+}
+/*header-end*/
+
+
+/*o mnie-start*/
+#about {
+    background-color:#f9fcfe;
+    overflow:hidden;
+    width:100%;
+/*    ukrywa scroll ten poprzeczny*/
+}
+
+#about > figure {
+    width: 50%;
+}
+
+#about > article {
+    width:50%;
+    float:left;
+}
+
+#about > figure > img {
+    max-width: 350px;
+    margin:0;
+}
+
+
+/*o mnie - end*/
