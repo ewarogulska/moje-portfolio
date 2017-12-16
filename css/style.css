@@ -117,3 +117,156 @@ body {
 }
 
 /*o mnie - end*/
+
+
+/*umiejętności - start*/
+#skills {
+    width:100%;
+    padding: 0 80px 100px;
+    
+}
+
+#skills > h2 {
+    text-align:center;
+}
+
+#skills > h2 > span {
+    color:#1ac056;
+}
+
+#skills > div > figure {
+    display:inline-block;
+    margin-left: 0 auto; 
+    margin-right: 0 auto;
+/*    transform:translateY;*/
+}
+
+#skills > div > figure > figcaption {
+    text-align:center;
+}
+
+#skills > skills-icons {
+ 
+}
+/*umiejętności - end*/
+
+/*portfolio - start*/
+#portfolio #portfolio-item-1 {
+    background-image: url(../img/portfolio1.jpg);
+}
+
+#portfolio #portfolio-item-2 {
+    background-image: url(../img/portfolio2.jpg);
+}
+
+#portfolio #portfolio-item3 {
+    background-image: url(../img/portfolio3.jpg);
+    }
+
+#portfolio > h2 {
+    text-align:center;
+}
+
+#portfolio > h2 > span {
+    color:#1ac056;
+}
+
+#portfolio #portfolio-items {
+    text-align:center;
+    font-size:0;
+}
+
+#portfolio #portfolio-items .portfolio-item {
+    height:330px;
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;
+    display:inline-block;
+    width: 33.3333;
+    position:relative;
+}
+
+#portfolio #portfolio-items .portfolio-item .item-mask {
+    background-color: rgba(42, 61, 79, 0.8);
+    width:100%;
+    height:100%;
+    opacity:0;
+    transition: all 0.3s ease-in-out;
+    position:absolute;
+    font-size:initial;
+    
+}
+
+#portfolio #portfolio-items .portfolio-item .item-mask:hover {
+    opacity:1;
+}
+
+/*
+#portfolio #portfolio-items .portfolio-item .item-mask .item-content {
+    
+}
+
+#portfolio #portfolio-items .portfolio-item .item-mask .item-content .item-content-inner {
+    
+}
+
+*/
+
+
+/*portfolio - end*/
+
+
+/*stopka kontaktowa moje dane - start */
+#contact {
+    width:100%;
+    background-color:#213b50;
+    color:#fff;
+    padding-top:3%;
+    padding-left:5%;
+    overflow:hidden;
+}
+
+#contact .contact-data {
+    width:50%;
+    float:left;
+   
+}
+
+#contact .contact-form {
+    width:50%;
+    margin-top:100px;
+   
+}
+
+#contact > div > figure {
+    display:inline-block;
+}
+
+#contact > div > h2 > span {
+    color:#1ac056;
+}
+
+/*stopka kontaktowa moje dane - end*/
+
+
+/*formularz kontaktowy - start*/
+
+
+
+form textarea, input[type="text"] {
+    background-color: #2b4a64;
+    width:300px;
+    height:25px;
+    outline: none;
+    border: none;    
+}
+
+form input[type="submit"] {
+    background-color: #1ac056;
+    padding: 10px 20px;
+    height: 40px;
+    border: 1px solid white;
+    color: white;
+    text-transform: uppercase;
+    cursor:pointer;
+}
