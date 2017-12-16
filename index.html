@@ -55,6 +55,9 @@
     </article>
 </section>
 
+<!--o mnie - end-->
+
+<!--umiejetnosci - start-->
 <section id="skills">
     <h2>Moje <span>umiejętności</span></h2>
     <article>
@@ -67,6 +70,7 @@
     <figure><img src="../moje-portfolio/icons/jquery.png"><figcaption>jQuery</figcaption></figure>
     </div>
     </section>
+<!--umiejetnosci - end-->
     
     
 <!--    sekcja portfolio - start-->
@@ -112,14 +116,23 @@
             <figure><a href="https://lnkedin.com"><i class="fa fa-linkedin" aria-hidden="true"></i></a></figure>
         </div>
         
-        <div class="contact-form">
-            <form action="https://formspree.io/ewa.k.rogulska@gmail.com" method="post"><br>
-            <input type="text" name="name" id="name" /> <br>
-            <input type="text" name="email" id="email" /> <br>
-            <textarea rows="3" cols="50" name="comment" id="comment"> </textarea>
+   <div class="contact-form">
+        <form action="https://formspree.io/ewa.k.rogulska@gmail.com" method="post">
+
+            <label for="name"> </label><br>
+            <input type="text" placeholder="Imię i nazwisko" name="name" id="name" /><br>
+
+            <label for="email"> </label><br>
+            <input type="text" placeholder="Adres mailowy" name="email" id="email" /><br>
+
+            <label for="comment"> </label><br>
+            <textarea placeholder="Treść wiadomości" rows="3" cols="50" name="comment" id="comment"> </textarea><br><br>
+
             <input type="submit" value="Wyślij" />
-            </form>
-        </div>
+
+        </form>
+
+    </div>
     </section>
 </body>
 </html>
