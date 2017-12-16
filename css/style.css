@@ -83,6 +83,7 @@ body {
     background-color:#f9fcfe;
     overflow:hidden;
     width:100%;
+    padding: 0 80px 100px;
 /*    ukrywa scroll ten poprzeczny*/
 }
 
@@ -90,15 +91,29 @@ body {
     width: 50%;
 }
 
-#about > article {
+#about > article > p {
     width:50%;
     float:left;
 }
 
 #about > figure > img {
-    max-width: 350px;
-    margin:0;
+    max-height: 350px;
+    max-width:100%;
+    float:left;
+    width:50%;
+    margin-right:10vw;
+    border:15px;
+    border-radius: 5%;
+    
 }
 
+#about > h2 {
+    text-align:center;
+}
+
+#about > h2 > span {
+    color:#1ac056;
+    
+}
 
 /*o mnie - end*/
